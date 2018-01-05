@@ -1,0 +1,201 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.main_content{
+	width:100%;
+	height:10%;
+} 
+.main_content .top{
+	width:100%;
+	height:10%;
+	color:white;
+	background: rgba(52, 52, 52, 0.6);
+	position:fixed;
+}
+.main_content .top .left_part{
+	width:640px;
+	height:10%;
+	float:left;
+	
+}
+.main_content .top .left_part .tag{
+	width:596px;
+	height:10%;
+	float:right;
+	line-height:50px;
+	z-index:99997;
+	
+}
+.bianJi{
+	width:100px;height:30px; background:white;color:black;line-height:30px;
+}
+.bianJi_2{
+	width:50px;height:30px; background:rgba(52, 52, 52, 0.8);color:white;line-height:30px;
+	text-align:center;
+	border-radius:2px;
+}
+.bianJi_2:hover{
+	cursor:pointer;
+	background:black;
+}
+.bianJi:hover{
+	cursor:pointer;
+	color:white;
+	background:rgba(52, 52, 52, 0.8);
+}
+
+.main_content .top .left_part .tag a:hover{
+	cursor:pointer;
+	padding-bottom:5px; border-bottom:1px solid white;
+}
+.main_content .top .left_part .tag .icon{
+	float:left; width:90px;height:50px;text-align:center;font-size:28px;line-height:50px;
+}
+.main_content .top .left_part .tag .icon_1{
+	font-size:14px;
+	float:left; width:100px;height:50px;line-height:50px;
+	text-align:center
+}
+
+.main_content .top .right_part{
+	width:175px;
+	height:50px;
+	float:right;
+	font-size:20px;
+	line-height:50px;
+}
+.main_content .top .right_part a:hover{
+	cursor:pointer;
+	padding-bottom:5px; border-bottom:1px solid white;
+}
+
+ .nothing{
+	width:395px;
+	height:450px;
+	float:left;
+}
+.bookPaihang{
+	width:100%;
+	height:80%;
+	text-align:center;
+
+}
+.bookPaihang .left_book{
+	width:36%;
+	height:85%;
+	float:left;
+
+}
+.bookPaihang .left_book .my_library{
+	width:100%;
+	height:100%;
+	float:left;
+	background:rgba(52, 52, 52, 0.4);
+	border-radius:25px;
+	color:white;
+}
+.bookPaihang .left_book .my_library .my_library_top{
+	width:100%;
+	height:12%;
+	line-height:60px;
+	font-size:25px;
+}
+.bookPaihang .left_book .my_library .my_image{
+	width: 140px;
+    height: 140px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    overflow: hidden;
+    position: relative;
+    left: 36%;
+    top: 3%;
+    border: solid 2px #eeeeee;
+}
+
+.bookPaihang .right_book{
+	width:62%;
+	height:85%;
+	float:right;
+	border-radius:25px;
+	background:rgba(52, 52, 52, 0.8);
+}
+.bookPaihang .right_book .book_hot_all{
+	width:100%;
+	height:82%;
+
+	float:right;
+	
+}
+.bookPaihang .right_book .book_hot_first{
+	width:90%;
+	height:100%;
+	background:white;
+	border-radius:15px;
+	float:right;
+}
+.hotforu{
+	width:100%;
+	height:50%;
+	
+}
+.hotforu .order {
+   height: 15%;
+   line-height: 60px;
+   text-align:center;
+}
+ .order .line {
+   display: inline-block;
+   width: 40%;
+   border-top: 1px solid #ccc ;
+}
+.order .txt {
+   color: #999999;
+   vertical-align: -8%;
+   font-size:20px;
+}
+.hotforu .book_list{
+	width:100%;
+	height:60%;
+	text-align:center;
+}
+.hotforu .book_list .book_all{
+	width:15%;
+	height:100%;
+	float:left;
+	background: rgba(52, 52, 52, 0.6);
+	color:white;
+	border-radius:10px;
+}
+/*.hotforu .book_list .book_all .book{*/
+	/*width:15%;*/
+	/*height:180px;*/
+	/*float:left;*/
+/*}*/
+/*.hotforu .book_list .book_all .book_introduce{*/
+	/*width:15%;*/
+	/*height:180px;*/
+	/**/
+	/*float:left;*/
+/*}*/
+/*.hotforu .book_list .book_all .book_introduce h4:hover{*/
+	/*padding-bottom:1px; border-bottom:1px solid white;*/
+/*}*/
+/*.hotforu .book_list .book_all .book_introduce p{*/
+	/*font-size:12px;*/
+/*}*/
+.hotforu .book_list .no{
+	width:1.6%;
+	height:180px;
+	float:left;
+}
+.hotforu .book_list .book_all:hover{
+	cursor:pointer
+}
+.layui-layer-title {
+		background:rgba(52, 52, 52, 0.3);
+}
+ .news_li:hover{
+	 cursor:pointer;
+ }
